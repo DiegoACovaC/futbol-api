@@ -13,6 +13,16 @@
 Proporciona información básica de la API y endpoints disponibles.  
 Ejemplo de respuesta:
 
+```json
+{
+  "message": "Bienvenido a la API de Fútbol ⚽",
+  "version": "1.0.0",
+  "endpoints": {
+    "teams": "/api/teams",
+    "teamById": "/api/teams/:id"
+  }
+}
+```
 ---
 
 2. Obtener Todos los Equipos  
