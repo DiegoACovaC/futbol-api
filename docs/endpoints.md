@@ -23,11 +23,13 @@ Ejemplo de respuesta:
 }
 ---
 2. Obtener Todos los Equipos
+
 /GET /api/teams 
 Retorna todos los equipos de fútbol almacenados en el sistema.
 Respuesta exitosa (200)
 ---
 3. Obtener Equipo por ID
+
 GET /api/teams/:id /
 Retorna un equipo específico basado en su ID.
 ---
@@ -49,6 +51,7 @@ Respuesta Exitosa (200):
 }
 ---
 4. Códigos de Estado HTTP
+
 200 - Éxito
 
 404 - Recurso no encontrado
