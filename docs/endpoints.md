@@ -3,7 +3,7 @@
 ## Información General
 - **Base URL:** `http://localhost:3000`
 - **Formato de Respuesta:** JSON
-- **Autenticación:** No requerida (por ahora)
+- **Autenticación:** No requerida (por ahora MVP)
 
 ---
 
