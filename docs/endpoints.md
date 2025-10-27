@@ -20,6 +20,18 @@ Ejemplo de respuesta:
 Retorna todos los equipos de fútbol almacenados en el sistema.  
 Respuesta exitosa (200):
 
+---
+
+3. Obtener Equipo por ID  
+**GET /api/teams/:id**  
+Retorna un equipo específico basado en su ID.  
+
+**Parámetros:**  
+- `id` (integer) - ID único del equipo  
+
+**Ejemplo de uso:** `GET /api/teams/1`  
+**Respuesta Exitosa (200):**
+
 {
   "success": true,
   "data": {
@@ -32,18 +44,6 @@ Respuesta exitosa (200):
     "coach": "Carlo Ancelotti"
   }
 }
-
----
-
-3. Obtener Equipo por ID  
-**GET /api/teams/:id**  
-Retorna un equipo específico basado en su ID.  
-
-**Parámetros:**  
-- `id` (integer) - ID único del equipo  
-
-**Ejemplo de uso:** `GET /api/teams/1`  
-**Respuesta Exitosa (200):**
 
 ---
 
