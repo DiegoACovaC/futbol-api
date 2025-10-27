@@ -18,7 +18,19 @@ Ejemplo de respuesta:
 2. Obtener Todos los Equipos  
 **GET /api/teams**  
 Retorna todos los equipos de fútbol almacenados en el sistema.  
-**Respuesta exitosa (200)**
+Respuesta exitosa (200)
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "name": "Real Madrid",
+    "country": "Spain",
+    "league": "La Liga",
+    "founded": 1902,
+    "stadium": "Santiago Bernabéu",
+    "coach": "Carlo Ancelotti"
+  }
+}
 
 ---
 
