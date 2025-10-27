@@ -24,19 +24,19 @@ cd futbol-api
  
 ### 3. Uso de la API
 -Endpoints disponible
-# Obtener información de la API
+Obtener información de la API
 curl http://localhost:3000/
 
-# Listar todos los equipos
+Listar todos los equipos
 curl http://localhost:3000/api/teams
 
-# Obtener equipo específico
+Obtener equipo específico
 curl http://localhost:3000/api/teams/1-3
 
-# Listar todos los jugadores
+Listar todos los jugadores
 curl http://localhost:3000/api/players
 
-# Obtener jugador específico
+Obtener jugador específico
 curl http://localhost:3000/api/players/1-3
 
 ### 4. Ejecución de Tests
