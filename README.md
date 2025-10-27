@@ -36,7 +36,7 @@ Estructura de respuestas estandarizada (success, data, message)
 
 Validación básica de datos
 
--Documentación: Completada en docs/endpoints.md
+-Documentación: Completada en **docs/endpoints.md**
 
 ---
 
@@ -86,7 +86,34 @@ Instalación dependencias (npm install)
 
 Ejecución tests (npm test)
 
-Documentación: Pendiente en docs/flujo-ci-cd.md
+Documentación: Pendiente en **docs/flujo-ci-cd.md**
 
 ---
+
+## 5. Pruebas y Validación Implementadas:
+
+Pruebas desarrolladas:
+
+4 tests de integración en tests/teams.test.js
+
+Cobertura de endpoints principales
+
+Validación de respuestas exitosas y errores
+
+Ejecución en pipeline:
+
+Tests se ejecutan automáticamente en GitHub Actions
+
+Cobertura actual: 83.78%
+
+4/4 tests pasando
+
+Errores corregidos:
+
+Error inicial en pipeline por sintaxis incorrecta en **workflow YAML**
+
+Además se encontro un problema de sintaxis en el archivo **package.json** que no tenía declaradas las dependencias necesarias (express, cors) ni las devDependencies (jest, supertest, nodemon). Por lo que Cuando GitHub Actions ejecutaba npm install, no podía instalar estos paquetes porque no estaban listados en el **package.json**. PD: Tarde 3 días tratando de hallar el error :(
+
+Pipeline ahora funciona en Node.js 18.x y 20.x
+
 
