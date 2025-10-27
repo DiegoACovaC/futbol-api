@@ -41,7 +41,7 @@ Retorna un equipo específico basado en su ID.
 
 **Ejemplo de uso:** `GET /api/teams/1`  
 **Respuesta Exitosa (200):**
-
+```
 {
   "success": true,
   "data": {
@@ -54,7 +54,7 @@ Retorna un equipo específico basado en su ID.
     "coach": "Carlo Ancelotti"
   }
 }
-
+```
 ---
 
 4. Códigos de Estado HTTP
