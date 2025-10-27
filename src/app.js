@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const teamRoutes = require('./routes/teamRoutes');
+const playerRoutes = require('./routes/playerRoutes');
 
 const app = express();
 
@@ -10,6 +11,7 @@ app.use(express.json());
 
 // Rutas
 app.use('/api/teams', teamRoutes);
+app.use('/api/players', playerRoutes);
 
 // Ruta de bienvenida
 app.get('/', (req, res) => {
@@ -18,7 +20,9 @@ app.get('/', (req, res) => {
     version: '1.0.0',
     endpoints: {
       teams: '/api/teams',
-      teamById: '/api/teams/:id'
+      teamById: '/api/teams/:id',
+      players: '/api/players', 
+      playerById: '/api/players/:id'
     }
   });
 });

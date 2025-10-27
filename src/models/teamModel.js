@@ -32,3 +32,25 @@ module.exports = {
   getTeamById,
   getTeamsByCountry
 };
+
+// Leer todos los jugadores
+const getAllPlayers = async () => {
+  try {
+    const data = await fs.readFile(dataPath, 'utf8');
+    return JSON.parse(data).players;
+  } catch (error) {
+    throw new Error('Error reading players data');
+  }
+};
+
+// Buscar jugador por ID
+const getPlayerById = async (id) => {
+  const players = await getAllPlayers();
+  return players.find(player => player.id === parseInt(id));
+};
+
+// Buscar jugadores por equipo
+const getPlayersByTeam = async (teamId) => {
+  const players = await getAllPlayers();
+  return players.filter(player => player.teamId === parseInt(teamId));
+};
