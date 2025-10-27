@@ -62,4 +62,4 @@ Retorna un equipo específico basado en su ID.
 - 200 - Éxito  
 - 404 - Recurso no encontrado  
 - 500 - Error interno del servidor
-"""
+
