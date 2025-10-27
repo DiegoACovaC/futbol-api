@@ -1,8 +1,8 @@
 # futbol-api
 
-#Pasos:
+# Pasos:
 
-##1.Alcance y Arquitectura del Proyecto:
+## 1.Alcance y Arquitectura del Proyecto:
 
 -Funcionalidad seleccionada: API RESTful para gestión de equipos y jugadores de fútbol
 
@@ -12,9 +12,9 @@
 
 -Documentación: Completada en **docs/arquitectura.md**
 
---
+---
 
-##2.Servicios Web Desarrollados:
+## 2.Servicios Web Desarrollados:
 
 -Framework utilizado: Express.js para Node.js
 
@@ -38,9 +38,9 @@ Validación básica de datos
 
 -Documentación: Completada en docs/endpoints.md
 
---
+---
 
-##3.Integración Básica Configurada:
+## 3.Integración Básica Configurada:
 
 Control de versiones: Git implementado
 
@@ -56,9 +56,9 @@ npm run dev - Desarrollo con nodemon
 
 Entorno de desarrollo: Node.js + dependencias configuradas
 
---
+---
 
-##4.Integración Continua Implementada:
+## 4.Integración Continua Implementada:
 
 Herramienta CI: GitHub Actions
 
@@ -88,5 +88,5 @@ Ejecución tests (npm test)
 
 Documentación: Pendiente en docs/flujo-ci-cd.md
 
---
+---
 
