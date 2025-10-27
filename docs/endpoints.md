@@ -9,10 +9,9 @@
 
 # Endpoints Disponibles
  1. Ruta de Bienvenida
-**GET /**  
+GET  
 Proporciona información básica de la API y endpoints disponibles.
-
-**Ejemplo de respuesta:**
+Ejemplo de respuesta:
 ``json
 {
   "message": "Bienvenido a la API de Fútbol ⚽",
@@ -24,12 +23,12 @@ Proporciona información básica de la API y endpoints disponibles.
 }
 ---
 2. Obtener Todos los Equipos
-**/GET /api/teams /**
+/GET /api/teams 
 Retorna todos los equipos de fútbol almacenados en el sistema.
 Respuesta exitosa (200)
 ---
 3. Obtener Equipo por ID
-**GET /api/teams/:id /**
+GET /api/teams/:id /
 Retorna un equipo específico basado en su ID.
 ---
 Parámetros:
