@@ -29,7 +29,68 @@ Ejemplo de respuesta:
 **GET /api/teams**  
 Retorna todos los equipos de fútbol almacenados en el sistema.  
 Respuesta exitosa (200):
-
+```
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Real Madrid",
+      "country": "Spain",
+      "league": "La Liga",
+      "founded": 1902,
+      "stadium": "Santiago Bernabéu",
+      "coach": "Xabi Alonso"
+    },
+    {
+      "id": 2,
+      "name": "FC Barcelona",
+      "country": "Spain", 
+      "league": "La Liga",
+      "founded": 1899,
+      "stadium": "Spotify Camp Nou",
+      "coach": "Hans-Dieter Flick"
+    },
+    {
+      "id": 3,
+      "name": "Atletico Madrid",
+      "country": "Spain",
+      "league": "La Liga",
+      "founded": 1903,
+      "stadium": "Wanda Metropolitano",
+      "coach": "Diego Simeone"
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Jude Bellingham",
+      "age": 22,
+      "position": "Midfielder",
+      "nationality": "English",
+      "teamId": 1,
+      "goals": 15
+    },
+    {
+      "id": 2,
+      "name": "Pedri",
+      "age": 20,
+      "position": "Midfielder",
+      "nationality": "Spanish",
+      "teamId": 2,
+      "goals": 20
+    },
+    {
+      "id": 3,
+      "name": "Julian Álvarez",
+      "age": 23,
+      "position": "Forward",
+      "nationality": "Argentinian",
+      "teamId": 3,
+      "goals": 30
+    }
+  ]
+}
+```
 ---
 
 3. Obtener Equipo por ID  
