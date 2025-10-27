@@ -52,3 +52,27 @@ npm test -- --coverage
 npm run dev
 
 ### 6. Estructura del proyecto
+
+ futbol-api/
+├── .github/workflows/
+│   ├── node.js-ci.yml/   # CI/CD
+├── docs/               # Documentación
+├── src/
+│   ├── controllers/     # Lógica de endpoints
+│   ├── models/          # Acceso a datos
+│   ├── routes/          # Definición de rutas
+│   ├── data/           # Datos en JSON
+│   └── app.js          # Configuración Express
+└──  tests/              # Pruebas automatizadas
+
+### 7. Variable de entorno 
+
+La aplicación no requiere variables de entorno para funcionamiento básico.
+
+### 8. Solución de problema 
+
+-Puerto en uso: Cambiar variable de entorno PORT
+
+-Error de dependencias: Ejecutar npm install nuevamente
+
+-Tests fallando: Verificar que todos los archivos estén presentes
