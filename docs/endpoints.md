@@ -8,8 +8,7 @@
 ---
 
 # Endpoints Disponibles
-
-## 1. Ruta de Bienvenida
+ 1. Ruta de Bienvenida
 **GET /**  
 Proporciona información básica de la API y endpoints disponibles.
 
@@ -24,12 +23,12 @@ Proporciona información básica de la API y endpoints disponibles.
   }
 }
 ---
-##2. Obtener Todos los Equipos
+2. Obtener Todos los Equipos
 **/GET /api/teams /**
 Retorna todos los equipos de fútbol almacenados en el sistema.
 Respuesta exitosa (200)
 ---
-##3. Obtener Equipo por ID
+3. Obtener Equipo por ID
 **GET /api/teams/:id /**
 Retorna un equipo específico basado en su ID.
 ---
@@ -50,7 +49,7 @@ Respuesta Exitosa (200):
   }
 }
 ---
-##4. Códigos de Estado HTTP
+4. Códigos de Estado HTTP
 200 - Éxito
 
 404 - Recurso no encontrado
