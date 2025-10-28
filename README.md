@@ -10,7 +10,7 @@
 
 -Justificación de MVC: Dirigirse **docs/arquitectura.md**
 
--Documentación: Completada en **docs/arquitectura.md**
+-Documentación: Completada en **docs**
 
 ---
 
