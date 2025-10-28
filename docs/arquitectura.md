@@ -54,3 +54,27 @@ Middleware Logic Layer
 ### 6.3 Validación Centralizada
 - Middleware de validación de datos
 - Respuestas de error estandarizadas
+
+### 7. Diagrama de arqutectura Futbol API.
+┌─────────────────┐ HTTP Requests ┌──────────────────┐
+│ Cliente │ ──────────────────> │ API Express.js │
+│ (Navegador/ │ │ (src/app.js) │
+│ Postman/etc) │ <────────────────── │ │
+└─────────────────┘ JSON Responses └─────────┬────────┘
+│
+┌──────┴──────┐
+│ Rutas │
+│ (src/routes/)│
+└──────┬──────┘
+┌──────┴──────┐
+│ Controladores│
+│(src/controllers)│
+└──────┬──────┘
+┌──────┴──────┐
+│ Modelos │
+│ (src/models/)│
+└──────┬──────┘
+┌──────┴──────┐
+│ Datos JSON │
+│(src/data/teams.json)│
+└──────────────┘
