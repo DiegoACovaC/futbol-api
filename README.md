@@ -26,6 +26,10 @@ GET /api/teams - Obtener todos los equipos
 
 GET /api/teams/:id - Obtener equipo específico por ID
 
+GET /api/players - Obtener todos los equipos
+
+GET /api/players/:id - Obtener equipo específico por ID
+
 -Buenas prácticas implementadas:
 
 Manejo de errores (404 para recursos no encontrados, 500 para errores internos)
