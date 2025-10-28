@@ -55,14 +55,23 @@ npm run dev
 
  futbol-api/
 ├── .github/workflows/
+
 │   ├── node.js-ci.yml/   # CI/CD
+
 ├── docs/               # Documentación
+
 ├── src/
+
 │   ├── controllers/     # Lógica de endpoints
+
 │   ├── models/          # Acceso a datos
+
 │   ├── routes/          # Definición de rutas
+
 │   ├── data/           # Datos en JSON
+
 │   └── app.js          # Configuración Express
+
 └──  tests/              # Pruebas automatizadas
 
 ### 7. Variable de entorno 
