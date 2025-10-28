@@ -116,4 +116,11 @@ Además se encontro un problema de sintaxis en el archivo **package.json** que n
 
 Pipeline ahora funciona en Node.js 18.x y 20.x
 
+---
+
+## 6. Documentación Implementada:
+
+Prepara una guía de usuario y de despliegue: **docs/guia-despliegue.md**
+
+Incluye diagramas de arquitectura **docs/arquitectura.md** y flujos de CI **docs/flujo-ci-cd.md**
 
