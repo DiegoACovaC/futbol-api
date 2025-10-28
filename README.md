@@ -128,3 +128,8 @@ Prepara una guía de usuario y de despliegue: **docs/guia-despliegue.md**
 
 Incluye diagramas de arquitectura **docs/arquitectura.md** y flujos de CI **docs/flujo-ci-cd.md**
 
+---
+
+## 7. VIDEO DEMOSTRATIVO:
+
+https://youtu.be/-VpsFBhdGk8
