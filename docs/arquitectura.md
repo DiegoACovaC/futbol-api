@@ -56,25 +56,6 @@ Middleware Logic Layer
 - Respuestas de error estandarizadas
 
 ### 7. Diagrama de arqutectura Futbol API.
-┌─────────────────┐ HTTP Requests ┌──────────────────┐
-│ Cliente │ ──────────────────> │ API Express.js │
-│ (Navegador/ │ │ (src/app.js) │
-│ Postman/etc) │ <────────────────── │ │
-└─────────────────┘ JSON Responses └─────────┬────────┘
-│
-┌──────┴──────┐
-│ Rutas │
-│ (src/routes/)│
-└──────┬──────┘
-┌──────┴──────┐
-│ Controladores│
-│(src/controllers)│
-└──────┬──────┘
-┌──────┴──────┐
-│ Modelos │
-│ (src/models/)│
-└──────┬──────┘
-┌──────┴──────┐
-│ Datos JSON │
-│(src/data/teams.json)│
-└──────────────┘
+
+<img width="682" height="684" alt="image" src="https://github.com/user-attachments/assets/b50e031b-47a1-4f44-abb1-7f30f604134e" />
+
